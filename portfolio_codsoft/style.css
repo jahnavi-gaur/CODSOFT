@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif serif Arial, Helvetica;
+}
+
+/* home */
+.logo{
+    margin: 30px;
+    background-color: whitesmoke;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.image img{
+    display: block;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+nav p{
+    font-size: 40px;
+    margin: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 23px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: red;
+    font-size: 1.04rem;
+}
+
+.profile-photo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container span{
+    color: aqua;
+}
+
+.container p{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.container button{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 275px;
+}
+
+/* about section */
+main .about{
+    margin: 30px;
+    background-color: whitesmoke;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+main p{
+    font-size: 30px;
+}
+
+main .about .about-sec{
+    display: flex;
+    justify-content: center;
+}
+
+main .about .detail{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+/* skills section*/
+main .skills{
+    margin: 30px;
+    background-color: whitesmoke;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+main .skills .top-skills{
+    display: flex;
+    justify-content: center;
+}
+ 
+main .skills .skill_logo{
+    height:40vh;
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+.skills img{
+    height:150px;
+    margin-top: 20px;
+}
+
+/* project section */
+main .projects{
+    margin: 30px;
+    background-color: whitesmoke;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+main .projects .project-sec{
+    display: flex;
+    justify-content: center;
+}
+
+/* contact section */
+
+main .contact{
+    margin: 30px;
+    background-color: whitesmoke;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+main .contact .contact-sec{
+    display: flex;
+    justify-content: center;
+}
+main .contact .form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .contact .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+/* footer section */
+footer{
+    background: #000;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
